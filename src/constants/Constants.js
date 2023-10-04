@@ -1,0 +1,19 @@
+export const SALT_ROUNDS = 10
+export const USER_NAME_MIN_LENGTH = 4
+export const USER_NAME_MAX_LENGTH = 25
+export const PASSWORD_MIN_LENGTH = 6
+export const PASSWORD_MAX_LENGTH = 15
+
+export const SUCCESS = 200
+export const CREATED = 201
+export const REDIRECT = 302
+export const INVALIDREQ = 400
+export const UNAUTHORISED = 401
+export const FORBIDDEN = 403
+export const NOTFOUND = 404
+export const METHODNOTALLOWED = 405
+export const PAYLOADTOOLARGE = 413
+export const INVALIDPARSINGREQ = 422
+export const TOOMANYREQUEST = 429
+export const CLIENTERROR = 499
+export const INTERNALSERVERERROR = 500
